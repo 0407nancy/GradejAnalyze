@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="84dp"
@@ -23,6 +22,7 @@
                 android:layout_marginLeft="9dp"
                 android:layout_marginTop="20dp"
                 android:src="@drawable/image4"></ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,38 +40,39 @@
             android:background="@drawable/middlebar"
             android:orientation="vertical"
             android:layout_weight="1">
-
             <EditText
                 android:id="@+id/subject1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学科名称(至多10个字符)"
                 android:inputType="text"
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
 
             <EditText
                 android:id="@+id/Enter1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入您的成绩(0~100)"
                 android:inputType="number"
                 android:digits="0123456789."
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
 
             <EditText
                 android:id="@+id/grade1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学分(0~10)"
                 android:inputType="number"
-                android:textSize="10sp"></EditText>
+                android:textSize="18sp">
+            </EditText>
         </LinearLayout>
 
         <LinearLayout
@@ -85,11 +86,11 @@
                 android:id="@+id/subject2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学科名称(至多10个字符)"
                 android:inputType="text"
-                android:textColor="#3299CC"
-                android:textSize="10sp">
+                android:textSize="18sp">
 
             </EditText>
 
@@ -97,23 +98,23 @@
                 android:id="@+id/Enter2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入您的成绩(0~100)"
                 android:inputType="number"
                 android:digits="0123456789."
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
 
             <EditText
                 android:id="@+id/grade2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学分(0~10)"
                 android:inputType="number"
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
         </LinearLayout>
         <LinearLayout
@@ -122,40 +123,38 @@
             android:layout_weight="1"
             android:background="@drawable/middlebar"
             android:orientation="vertical">
-
             <EditText
                 android:id="@+id/subject3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学科名称(至多10个字符)"
-                android:textSize="10dp"
-                android:inputType="text"
-                android:textColor="#3299CC">
-
+                android:textSize="18sp"
+                android:inputType="text">
             </EditText>
 
             <EditText
                 android:id="@+id/Enter3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入您的成绩(0~100)"
                 android:inputType="number"
                 android:digits="0123456789."
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
 
             <EditText
                 android:id="@+id/grade3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学分(0~10)"
                 android:inputType="number"
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
 
 
@@ -166,47 +165,42 @@
             android:layout_weight="1"
             android:background="@drawable/middlebar"
             android:orientation="vertical">
-
             <EditText
                 android:id="@+id/subject4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学科名称(至多10个字符)"
                 android:inputType="text"
-                android:textColor="#3299CC"
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
-
             <EditText
                 android:id="@+id/Enter4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入您的成绩(0~100)"
                 android:inputType="number"
                 android:digits="0123456789."
-                android:textSize="10sp">
-
+                android:textSize="18sp">
             </EditText>
-
             <EditText
                 android:id="@+id/grade4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25sp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="80sp"
                 android:hint="请输入学分(0~10)"
                 android:inputType="number"
-                android:textSize="10sp">
+                android:textSize="18sp">
             </EditText>
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <Button
                 android:id="@+id/analyze"
                 android:layout_width="wrap_content"
@@ -217,9 +211,6 @@
                 android:textColor="@color/white"></Button>
         </LinearLayout>
 
-
     </LinearLayout>
-
-
 
 </RelativeLayout>

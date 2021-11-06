@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    tools:context=".GradeAnalyzeActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -44,9 +44,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_marginLeft="9dp"
                         android:layout_marginTop="20dp"
-                        android:background="@drawable/back">
-
-                    </Button>
+                        android:background="@drawable/back"></Button>
 
                 </RelativeLayout>
 
@@ -456,8 +454,8 @@
                         android:layout_marginLeft="100dp"
                         android:layout_marginTop="90dp"
                         android:text="综合评级:"
-                        android:textSize="20dp"
-                        android:textColor="@color/black">
+                        android:textColor="@color/black"
+                        android:textSize="20dp">
 
                     </TextView>
 

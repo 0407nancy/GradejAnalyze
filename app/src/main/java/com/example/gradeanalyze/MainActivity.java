@@ -44,14 +44,27 @@ public class MainActivity extends AppCompatActivity {
                 String eg2str = grade2.getText().toString();
                 String eg3str = grade3.getText().toString();
                 String eg4str = grade4.getText().toString();
+                double ee1 =Double.parseDouble(ee1str);
+                double ee2 =Double.parseDouble(ee2str);
+                double ee3 =Double.parseDouble(ee3str);
+                double ee4 =Double.parseDouble(ee4str);
+                int eg1 =Integer.parseInt(eg1str);
+                int eg2 =Integer.parseInt(eg2str);
+                int eg3 =Integer.parseInt(eg3str);
+                int eg4 =Integer.parseInt(eg4str);
+
                 //防输入bug
                 if(TextUtils.isEmpty(ee1str)||TextUtils.isEmpty(ee2str)||TextUtils.isEmpty(ee3str)||TextUtils.isEmpty(ee4str) ||TextUtils.isEmpty(eg1str)||TextUtils.isEmpty(eg2str)||TextUtils.isEmpty(eg3str)||TextUtils.isEmpty(eg4str)||TextUtils.isEmpty(es1str)||TextUtils.isEmpty(es2str)||TextUtils.isEmpty(es3str)||TextUtils.isEmpty(es4str))
                 {
                     Toast.makeText(MainActivity.this,"输入不能为空!",Toast.LENGTH_LONG).show();
                 }
-                else if (ee1str.length() > 4 || ee2str.length() > 4 || ee3str.length() > 4 || ee4str.length() > 4  || eg1str.length() > 3 || eg2str.length() > 3 || eg3str.length() > 3 || eg4str.length() > 3||es1str.length()>10||es2str.length()>10||es3str.length()>10||es4str.length()>10)
+                else if (ee1str.length() > 4 || ee2str.length() > 4 || ee3str.length() > 4 || ee4str.length() > 4  || eg1str.length() > 2 || eg2str.length() > 2 || eg3str.length() > 2 || eg4str.length() > 2||es1str.length()>10||es2str.length()>10||es3str.length()>10||es4str.length()>10)
                 {
-                    Toast.makeText(MainActivity.this, "您输入的数据或字符过大!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "您输入的数据或字符过长!", Toast.LENGTH_LONG).show();
+                }
+                else if (ee1 > 100 || ee2 > 100 || ee3 > 100 || ee4 > 100  || eg1 > 10 || eg2 > 10 || eg3 > 10 || eg4 > 10)
+                {
+                    Toast.makeText(MainActivity.this, "您输入的数据过大!", Toast.LENGTH_LONG).show();
                 }
                 else
                     {

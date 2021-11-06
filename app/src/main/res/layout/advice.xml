@@ -72,9 +72,8 @@
                 android:id="@+id/advice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_marginLeft="60dp"
-                android:layout_marginBottom="150dp"
+                android:layout_marginTop="100dp"
                 android:layout_weight="4"
                 android:textColor="@color/black"
                 android:textSize="20sp"></TextView>
@@ -111,9 +110,8 @@
                     android:id="@+id/advice2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
                     android:layout_marginLeft="60dp"
-                    android:layout_marginBottom="150dp"
+                    android:layout_marginTop="100dp"
                     android:layout_weight="4"
                     android:textColor="@color/black"
                     android:textSize="20sp"></TextView>
@@ -155,9 +153,8 @@
                 android:id="@+id/advice3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
                 android:layout_marginLeft="60dp"
-                android:layout_marginBottom="149dp"
+                android:layout_marginTop="100dp"
                 android:layout_weight="4"
                 android:textColor="@color/black"
                 android:textSize="20sp"></TextView>
@@ -194,9 +191,8 @@
             android:id="@+id/advice4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_marginLeft="60dp"
-            android:layout_marginBottom="150dp"
+            android:layout_marginTop="100dp"
             android:layout_weight="4"
             android:textColor="@color/black"
             android:textSize="20sp"></TextView>

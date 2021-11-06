@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".GradeAnalyze"></activity>
-        <activity android:name=".Advice"></activity>
+        <activity android:name=".Advice">  </activity>
     </application>
 
 </manifest>
